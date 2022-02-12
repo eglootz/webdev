@@ -1,0 +1,16 @@
+@font-face {
+  font-family: courier-bold;
+  src: url(../fonts/CourierPrime-Bold.ttf);
+}
+@font-face {
+  font-family: courier-bold-italic;
+  src: url(../fonts/CourierPrime-BoldItalic.ttf);
+}
+@font-face {
+  font-family: courier-italic;
+  src: url(../fonts/CourierPrime-Italic.ttf);
+}
+@font-face {
+  font-family: courier-regular;
+  src: url(../fonts/CourierPrime-Regular.ttf);
+}

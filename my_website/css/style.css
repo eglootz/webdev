@@ -1,0 +1,147 @@
+@import url(fonts.css);
+
+html,
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: rgb(90, 90, 90);
+}
+
+/*-----------------Global Classes-----------------*/
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+/*---------x-------Global Classes---------x-------*/
+
+/*-----------------navbar-----------------*/
+
+.nav {
+  background: rgb(54, 54, 54);
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 9vh;
+  overflow: hidden;
+  transition: height 1s ease-in-out;
+}
+
+.nav .nav-brand a {
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  display: block;
+  font-family: courier-bold;
+  letter-spacing: -0.05em;
+}
+
+.nav .toggle-collapse {
+  position: absolute;
+  top: 0%;
+  width: 90%;
+  cursor: pointer;
+  display: none;
+}
+
+.nav .toggle-collapse .toggle-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i {
+  font-size: 1.4rem;
+  color: whitesmoke;
+}
+
+.collapse {
+  height: 27rem;
+}
+
+.nav .nav-menu {
+  justify-content: space-between;
+}
+
+.nav .nav-items {
+  display: flex;
+  margin: 0;
+}
+
+.nav .nav-items .nav-link {
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  font-family: courier-regular;
+}
+
+.nav .nav-items .nav-theme {
+  padding: 1.45rem 1rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.nav .nav-items .nav-theme a:hover {
+  color: rgb(228, 92, 228);
+}
+
+.nav .nav-items .nav-link:hover {
+  background-color: rgb(151, 119, 151);
+}
+
+.nav .social {
+  padding: 1.4rem 0;
+  font-size: 1.5rem;
+}
+
+.nav .social i {
+  padding: 0 0.2rem;
+}
+
+.nav .social i:hover {
+  color: rgb(228, 92, 228);
+}
+
+/*---------x-------navbar---------x-------*/
+
+/*-----------------main-----------------*/
+
+main .site-title {
+  background: url(../images/mainboard1.png);
+  background-size: cover;
+  height: 110vh;
+}
+
+/*---------x-------main---------x-------*/
+
+/*-----------------viewport less or equal to 750px-----------------*/
+
+@media only screen and (max-width: 750px) {
+  .nav .nav-menu,
+  .nav .nav-items {
+    flex-direction: column;
+  }
+
+  .nav .toggle-collapse {
+    display: initial;
+  }
+}
+
+/*---------x-------viewport less or equal to 750px---------x-------*/
+
+/*-----------------navbar-----------------*/
+/*---------x-------navbar---------x-------*/
