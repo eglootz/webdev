@@ -5,7 +5,7 @@ body {
   margin: 0%;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: rgb(90, 90, 90);
+  background-color: rgb(54, 54, 54);
 }
 
 /*-----------------Global Classes-----------------*/
@@ -29,6 +29,25 @@ a:visited {
 ul {
   list-style-type: none;
 }
+
+h1 {
+  font-family: courier-bold;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: courier-regular;
+  font-size: 1.3rem;
+}
+
+button.btn {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 1rem 3rem;
+  font-family: courier-regular;
+  font-size: 1rem;
+}
+
 /*---------x-------Global Classes---------x-------*/
 
 /*-----------------navbar-----------------*/
@@ -124,6 +143,30 @@ main .site-title {
   background: url(../images/mainboard1.png);
   background-size: cover;
   height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+
+main .site-title .site-background {
+  padding-top: 13rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+main .site-title h3,
+h1 {
+  margin: 0.3rem;
+}
+
+main .site-title .btn {
+  margin: 1.3rem;
+  background-color: whitesmoke;
+}
+
+main .site-title .btn:hover {
+  background: transparent;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
 }
 
 /*---------x-------main---------x-------*/
