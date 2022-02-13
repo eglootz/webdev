@@ -41,11 +41,12 @@ h3 {
 }
 
 button.btn {
-  border: none;
+  border: 2px solid whitesmoke;
   border-radius: 0.2rem;
   padding: 1rem 3rem;
   font-family: courier-regular;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 /*---------x-------Global Classes---------x-------*/
@@ -110,7 +111,7 @@ button.btn {
 
 .nav .nav-items .nav-theme {
   padding: 1.45rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   position: relative;
 }
 
