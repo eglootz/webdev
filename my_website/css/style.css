@@ -40,13 +40,15 @@ h3 {
   font-size: 1.3rem;
 }
 
-button.btn {
+.btn {
+  color: black !important;
   border: 2px solid whitesmoke;
   border-radius: 0.3rem;
   padding: 1rem 3rem;
   font-family: courier-regular;
   font-size: 1rem;
   cursor: pointer;
+  margin: 5rem !important;
 }
 
 /*---------x-------Global Classes---------x-------*/
@@ -160,14 +162,14 @@ h1 {
 }
 
 main .site-title .btn {
-  margin: 1.3rem;
+  margin: 5rem;
   background-color: whitesmoke;
 }
 
 main .site-title .btn:hover {
   background: transparent;
   border: 2px solid whitesmoke;
-  color: whitesmoke;
+  color: whitesmoke !important;
 }
 
 /*---------x-------main---------x-------*/
