@@ -1,0 +1,38 @@
+@import url(../css/fonts.css);
+
+body {
+  background-color: rgb(88, 88, 88);
+}
+
+.article {
+  color: whitesmoke;
+  background-color: rgb(53, 53, 53);
+  margin: 5rem;
+  border-radius: 0.5rem;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-shadow: 0px 0px 12px 1px #000000;
+  text-align: justify;
+}
+
+.date {
+  text-decoration: underline overline;
+}
+h1,
+h2,
+h3 {
+  font-family: courier-italic;
+  letter-spacing: 0.2rem;
+}
+
+p,
+li {
+  font-family: courier-regular;
+}
+
+.bild {
+  border-radius: 10px;
+}
